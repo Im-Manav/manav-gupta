@@ -7,8 +7,8 @@
 
 ## 🌐 My Portfolio
 
-🎯 **Live Demo:** [manavgupta.vercel.app](https://manavgupta.vercel.app) _(update with your actual link)_  
-📦 **Repository:** [github.com/Manav-Gupta/portfolio](https://github.com/Manav-Gupta/portfolio)
+🎯 **Live Demo:** []()  
+📦 **Repository:** [https://github.com/Im-Manav/manav-gupta]
 
 ---
 
