@@ -1,47 +1,16 @@
-# 👋 Hey, I'm Manav Gupta
+# React + Vite
 
-> A passionate **Software Engineer** from India 🇮🇳 who loves building **scalable systems** using **Golang** and **React.js**.  
-> I specialize in **event-driven architectures**, **real-time applications**, and **clean backend design** — all wrapped with a sleek, minimal front-end.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🌐 My Portfolio
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🎯 **Live Demo:** []()  
-📦 **Repository:** [https://github.com/Im-Manav/manav-gupta]
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## ⚙️ Tech Stack
+## Expanding the ESLint configuration
 
-| Frontend    | Backend                        | Tools & Infra                             | Styling         |
-| ----------- | ------------------------------ | ----------------------------------------- | --------------- |
-| ⚛️ React.js | 🧠 Golang (Gin / gRPC / Kafka) | 🐳 Docker, 🧩 Microservices, 🪶 REST APIs | 🎨 Tailwind CSS |
-
----
-
-## 🪄 Features
-
-✨ **Fully Responsive** — Built with mobile-first design principles  
-⚡ **Fast & Optimized** — Leveraging React hooks and lazy loading  
-🌙 **Dark Mode** — Toggle-friendly aesthetic theme  
-🧠 **Reusable Components** — Modular, clean React structure  
-🎥 **Interactive UI** — Subtle animations powered by Framer Motion  
-💬 **Dynamic Contact Section** — Integrated with email or API endpoints  
-🚀 **Deployed on Vercel / Netlify** — Continuous deployment setup
-
----
-
-## 📂 Project Structure
-
-```bash
-📦 portfolio/
- ┣ 📂 src/
- ┃ ┣ 📁 components/
- ┃ ┣ 📁 pages/
- ┃ ┣ 📁 assets/
- ┃ ┣ 📁 data/
- ┃ ┣ 📄 App.jsx
- ┃ ┣ 📄 index.js
- ┗ 📄 tailwind.config.js
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
