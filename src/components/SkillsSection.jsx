@@ -40,8 +40,8 @@ export const SkillsSection = () => {
                     My <span className="text-primary">Skills</span>
                 </h2>
 
-                <div>
-                    {categories.map((category,key) => {
+                <div className="flex flex-wrap justify-center gap-4 mb-12">
+                    {categories.map((category,key) => (
                         <button
                             key={key}
                             onClick={() => setActiveCategory(category)}
@@ -54,10 +54,10 @@ export const SkillsSection = () => {
                         >
                             {category}
                         </button>
-                    })}
+                    ))}
                 </div>
 
-                <div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {filteredSkills.map((skill,key) => (
                         <div
                             key={key}
